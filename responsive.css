@@ -41,6 +41,11 @@
         margin-top: 500px;
     }
 
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+    }
+
     footer {
         height: 5vh;
         margin: 0 1rem;
