@@ -78,7 +78,7 @@ a:hover {
 
 
 /*auto typing*/
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1072px) {
   .typing-text  {
     color: #d7b94c;
     position: relative;
@@ -100,6 +100,15 @@ a:hover {
   @keyframes caret {
     50% { color: transparent }
   }
+
+  .home-content h1,
+  .home-content h3,
+  #socials-container {
+    max-width: 50vw;
+    align-self: center;
+    text-align: center;
+  } 
+
 }
 
 /* mobile menu */
@@ -197,15 +206,7 @@ a:hover {
     align-items: center;
     height: 97vh;
     padding: 10px 10%;
-    gap: 300px;
-}
-
-.home-content h1,
-.home-content h3,
-.home-content #socials-container {
-    max-width: 50vw;
-    align-self: center;
-    text-align: center;
+    gap: 10px 20%;
 }
 
 .home-content h1 {

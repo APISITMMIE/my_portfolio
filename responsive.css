@@ -1,4 +1,5 @@
-@media screen and (max-width: 1200px) {
+
+@media screen and (max-width: 768px) {
     #desktop-nav {
         display: none;
     }
@@ -51,4 +52,14 @@
         height: 4vh;
         margin: 0 1rem;
       }
+}
+  
+@media screen and (max-width: 368px) {
+    #skills {
+        margin-top: 35vh;
+    }
+    
+    #contact {
+        margin-top: 92vh;
+    }
 }
