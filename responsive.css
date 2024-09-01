@@ -44,10 +44,11 @@
     .contact-info {
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
     }
 
     footer {
-        height: 5vh;
+        height: 4vh;
         margin: 0 1rem;
       }
 }

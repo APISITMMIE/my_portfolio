@@ -78,7 +78,7 @@ a:hover {
 
 
 /*auto typing*/
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
   .typing-text  {
     color: #d7b94c;
     position: relative;
@@ -89,7 +89,7 @@ a:hover {
       width: 100%;
       color: black;
       background: white;
-      animation: typing 3.5s steps(17) alternate infinite,
+      animation: typing 3.5s steps(21) alternate infinite,
         caret 1s infinite;
     }
   }
@@ -200,7 +200,9 @@ a:hover {
     gap: 300px;
 }
 
-.home-content {
+.home-content h1,
+.home-content h3,
+.home-content #socials-container {
     max-width: 50vw;
     align-self: center;
     text-align: center;
@@ -391,6 +393,7 @@ article .icon {
   background: (250, 250, 250);
   margin: 10px 10%;
   padding: 0.5rem;
+  margin-top: 50px;
 }
 
 .contact-container {
