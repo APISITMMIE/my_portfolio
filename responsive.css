@@ -1,3 +1,19 @@
+@media screen and (max-width: 1200px) {
+    .about-containers , .article-container{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .article-container {
+        justify-content: center;
+        align-items: start;
+        padding-top: 0;
+    }
+
+    #contact {
+        margin-top: 700px;
+    }
+}
 
 @media screen and (max-width: 768px) {
     #desktop-nav {
@@ -25,17 +41,6 @@
         max-width: 35vw;
         width: 50vw;
         height: 450px;
-    }
-
-    .about-containers , .article-container{
-        display: flex;
-        flex-direction: column; 
-    }
-
-    .article-container {
-        justify-content: center;
-        align-items: start;
-        padding-top: 0;
     }
 
     #contact {
