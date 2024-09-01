@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #mobile-nav {
+        display: flex;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        padding-top: 12vh;
+        gap: 5rem;
+        text-align: center;
+    }
+
+    #home .icon {
+        cursor: pointer;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    #home img {
+        max-width: 35vw;
+        width: 50vw;
+        height: 450px;
+    }
+
+    .about-containers , .article-container{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .article-container {
+        justify-content: center;
+        align-items: start;
+        padding-top: 0;
+    }
+
+    #contact {
+        margin-top: 500px;
+    }
+
+    footer {
+        height: 5vh;
+        margin: 0 1rem;
+      }
+}

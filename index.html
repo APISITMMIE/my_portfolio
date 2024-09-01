@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header">
+    <nav id="desktop-nav">
+      <a href="index.html" class="logo">Resume</a>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="mobile-nav">
+      <div class="logo">Resume</div>
+      <div class="mobile-menu">
+        <div class="mobile-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home">
+    <img src="/asset/profile pic.png" alt="pic-profile">
+    <div class="home-content">
+      <h1>Hello, I'm </h1>
+      <span class="typing-text">Apisit Sensuwan&nbsp;&nbsp;</span>
+      <h3>Frontend Developer</h3>
+        <div id="socials-container">
+          <img
+            src="./asset/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/APISITMMIE'"
+          />
+        </div>
+    </div>
+
+  </section>
+
+  <!-- About section -->
+  <section id="about">
+
+    <h1 class="title-about">About</h1>
+    <div class="bbox">
+      <h2>About Me</h2>
+      <div class="content-inside">
+        <p>Hello My name is Apisit Sensuwan, My nickname is M</p>
+      </div>
+    </div>
+
+    <div class="bbox">
+      <h2>Experience</h2>
+      <div class="content-inside">
+        <h4>Frontend Developer</h4>
+        <div class="box-status">internship</div>
+      </div>
+      <div class="content-inside">
+        <div class="f-start">
+          <img src="/asset/school.png" alt="">
+          <p>QWave company limited</p>
+        </div>
+        <div class="f-end">
+          <img src="/asset/calendar.png" alt="calendar">
+          <p>April 2023 - June 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bbox">
+      <h2>Education</h2>
+      <div class="content-inside">
+        <h4>Bachelor in Computer Engineer</h4>
+        <div class="box-status">Full Time</div>
+      </div>
+      <div class="content-inside">
+        <div class="f-start"><img src="/asset/school.png" alt="">
+          <p class="inside">Rajamangala university of technology thanyaburi</p>
+        </div>
+        <div class="f-end">
+          <img src="/asset/calendar.png" alt="calendar">
+          <p class="inside">July 2022 - may 2024</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Skills section -->
+  <section id="skills">
+    <h1 class="title-skills">Skills</h1>
+    <div class="about-containers">
+      <div class="details-container">
+        <h2 class="experience-sub-title">Frontend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>HTML</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>CSS</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>JavaScript</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Bootstrap</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Backend Development</h2>
+        <div class="article-container">
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>MySQL</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>NodeJS</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>ExpressJS</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>PHP</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Framework</h2>
+        <div class="article-container">
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>React</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Laravel</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="details-container">
+        <h2 class="experience-sub-title">Tool</h2>
+        <div class="article-container">
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>Github</h3>
+            </div>
+          </article>
+          <article>
+            <img src="./asset/tagcode.png" alt="Experience icon" class="icon" />
+            <div>
+              <h3>VsCode</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact">
+    <h1 class="title-contact">Contact Me</h1>
+    <div class="bbox">
+      <div class="contact-container">
+        <img
+          src="./asset/email.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:mmie.naja@hotmail.com">mmie.naja@hotmail.com</a></p>
+      </div>
+      <div class="contact-container">
+        <img
+          src="./asset/phone.png"
+          alt="Email icon"
+          class="icon contact-icon email-icon"
+        />
+        <p>090-3216723</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <p>Copyright &#169; 2024 Apisit Sensuwan. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
